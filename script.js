@@ -10,7 +10,7 @@ const ORGANELLES = [
   {
     id: "cell-wall",
     badge: "Tế bào Thực vật & Nấm",
-    image: "img/cell-wall.svg",
+    image: "img/thanhtebao.svg",
     riddle: "Tôi bao bọc bên ngoài tế bào thực vật, tạo nên hình dạng cố định và bảo vệ tế bào khỏi áp suất thẩm thấu. Tôi là ai?",
     name: "Thành tế bào",
     english: "Cell Wall",
@@ -22,7 +22,7 @@ const ORGANELLES = [
   {
     id: "plasma-membrane",
     badge: "Mọi tế bào (Nhân sơ & Nhân thực)",
-    image: "img/plasma-membrane.svg",
+    image: "img/mangsinhchat.png",
     riddle: "Tôi là màng sinh chất khép kín, linh hoạt, kiểm soát nghiêm ngặt các chất ra vào tế bào theo cơ chế chọn lọc. Tôi là ai?",
     name: "Màng sinh chất",
     english: "Plasma Membrane",
@@ -34,7 +34,7 @@ const ORGANELLES = [
   {
     id: "nucleus",
     badge: "Trung tâm điều khiển",
-    image: "img/nucleus.svg",
+    image: "img/nhantebao.jpg",
     riddle: "Tôi chứa đựng vật liệu di truyền DNA, được bọc trong màng kép có các lỗ nhỏ và là 'bộ não' điều khiển mọi hoạt động sống. Tôi là ai?",
     name: "Nhân tế bào",
     english: "Nucleus",
@@ -46,7 +46,7 @@ const ORGANELLES = [
   {
     id: "cytoplasm",
     badge: "Môi trường tế bào",
-    image: "img/cytoplasm.svg",
+    image: "img/tebaochat.jpg",
     riddle: "Tôi lấp đầy khoảng không gian bên trong tế bào, gồm dịch bào lỏng và các bào quan lơ lửng bên trong. Tôi là ai?",
     name: "Tế bào chất",
     english: "Cytoplasm",
@@ -58,7 +58,7 @@ const ORGANELLES = [
   {
     id: "cytoskeleton",
     badge: "Tế bào Nhân thực (Eukaryote)",
-    image: "img/cytoskeleton.svg",
+    image: "img/khungxuongtebao.jpg",
     riddle: "Tôi là mạng lưới vi sợi, sợi trung gian và vi ống chăng khắp tế bào chất, giúp tế bào có hình dạng vững chắc và vận chuyển nội bào. Tôi là ai?",
     name: "Khung xương tế bào",
     english: "Cytoskeleton",
@@ -70,7 +70,7 @@ const ORGANELLES = [
   {
     id: "ribosome",
     badge: "Nhà máy tổng hợp Protein",
-    image: "img/ribosome.svg",
+    image: "img/ribosome.png",
     riddle: "Tôi cực kỳ nhỏ bé, không có màng bao bọc, gồm hai tiểu phần lớn và nhỏ, chuyên lắp ráp các axit amin thành protein. Tôi là ai?",
     name: "Ribosome",
     english: "Ribosome",
@@ -82,7 +82,7 @@ const ORGANELLES = [
   {
     id: "endoplasmic-reticulum",
     badge: "Hệ thống màng nội bào",
-    image: "img/endoplasmic-reticulum.svg",
+    image: "img/luoinoichat.png",
     riddle: "Tôi gồm mạng lưới màng gấp nếp: một bên gắn ribosome chuyên làm protein, một bên không gắn ribosome chuyên tổng hợp lipid và khử độc. Tôi là ai?",
     name: "Lưới nội chất",
     english: "Endoplasmic Reticulum (ER)",
@@ -94,7 +94,7 @@ const ORGANELLES = [
   {
     id: "golgi",
     badge: "Trung tâm đóng gói & phân phối",
-    image: "img/golgi.svg",
+    image: "img/bomaygolgi.png",
     riddle: "Tôi gồm các chồng túi màng dẹp hình đĩa khum, chuyên nhận sản phẩm từ lưới nội chất để biến đổi, đóng gói và dán tem xuất đi. Tôi là ai?",
     name: "Bộ máy Golgi",
     english: "Golgi Apparatus",
@@ -106,7 +106,7 @@ const ORGANELLES = [
   {
     id: "mitochondria",
     badge: "Nhà máy năng lượng",
-    image: "img/mitochondria.svg",
+    image: "img/tithe.jpg",
     riddle: "Tôi được ví như 'nhà máy điện' của tế bào, sở hữu màng kép với màng trong gấp nếp và chứa DNA riêng, chuyên sản xuất ATP. Tôi là ai?",
     name: "Ti thể",
     english: "Mitochondria",
@@ -118,7 +118,7 @@ const ORGANELLES = [
   {
     id: "chloroplast",
     badge: "Chỉ có ở Thực vật & Tảo",
-    image: "img/chloroplast.svg",
+    image: "img/luclap.png",
     riddle: "Tôi mang sắc tố xanh lục, chứa hệ thống màng thylakoid xếp chồng lên nhau, chuyên thực hiện quang hợp chuyển năng lượng mặt trời thành chất hữu cơ. Tôi là ai?",
     name: "Lục lạp",
     english: "Chloroplast",
@@ -130,7 +130,7 @@ const ORGANELLES = [
   {
     id: "lysosome",
     badge: "Túi tiêu hóa tế bào",
-    image: "img/lysosome.svg",
+    image: "img/lysosome.png",
     riddle: "Tôi là túi nhỏ chứa hàng chục loại enzyme thủy phân cực mạnh, chuyên dọn dẹp rác, tiêu hóa tế bào già cỗi hoặc mầm bệnh xâm nhập. Tôi là ai?",
     name: "Lysosome",
     english: "Lysosome",
@@ -142,7 +142,7 @@ const ORGANELLES = [
   {
     id: "vacuole",
     badge: "Kho chứa lớn của tế bào",
-    image: "img/vacuole.svg",
+    image: "img/khongbao.svg",
     riddle: "Tôi là chiếc túi dịch lớn ở thực vật, chiếm phần lớn thể tích tế bào, làm nhiệm vụ dự trữ nước, chất dinh dưỡng, sắc tố hoặc chất độc chống sâu bọ. Tôi là ai?",
     name: "Không bào",
     english: "Vacuole",
@@ -154,7 +154,7 @@ const ORGANELLES = [
   {
     id: "peroxisome",
     badge: "Túi khử độc chuyên hóa",
-    image: "img/peroxisome.svg",
+    image: "img/Peroxysomepng.png",
     riddle: "Tôi là bào quan màng đơn chứa enzyme tạo ra và phân hủy nước oxygia ($H_2O_2$), chuyên chuyển hóa lipid và khử độc các chất hại. Tôi là ai?",
     name: "Peroxysome",
     english: "Peroxisome",
@@ -166,7 +166,7 @@ const ORGANELLES = [
   {
     id: "centrosome",
     badge: "Trung tâm phân bào",
-    image: "img/centrosome.svg",
+    image: "img/trungthe.jpg",
     riddle: "Tôi gồm một cặp trung tử xếp vuông góc nhau, chuyên điều khiển sự hình thành thoi phân bào để kéo các nhiễm sắc thể khi tế bào chia đôi. Tôi là ai?",
     name: "Trung thể",
     english: "Centrosome",
@@ -178,7 +178,7 @@ const ORGANELLES = [
   {
     id: "cilia-flagella",
     badge: "Bộ phận di động",
-    image: "img/cilia-flagella.svg",
+    image: "img/longvaroi.jpg",
     riddle: "Chúng tôi là các phần phụ kéo dài bề mặt tế bào: cái thì ngắn, dày đặc như mái chèo; cái thì dài, uyển chuyển như chiếc roi giúp tế bào bơi lội. Chúng tôi là ai?",
     name: "Lông và roi",
     english: "Cilia & Flagella",
@@ -190,7 +190,7 @@ const ORGANELLES = [
   {
     id: "cell-junctions",
     badge: "Mối nối giữa các tế bào",
-    image: "img/cell-junctions.svg",
+    image: "img/moinoicuacactebao.png",
     riddle: "Chúng tôi là các cấu trúc kết nối các tế bào lân cận trong mô, tạo thành hàng rào khít, điểm bám vững chắc hoặc đường hầm trao đổi thông tin. Chúng tôi là ai?",
     name: "Mối nối giữa các tế bào",
     english: "Cell Junctions",
@@ -202,7 +202,7 @@ const ORGANELLES = [
   {
     id: "extracellular-matrix",
     badge: "Chất nền động vật",
-    image: "img/extracellular-matrix.svg",
+    image: "img/chatnenngoaibao.webp",
     riddle: "Tôi là mạng lưới các phân tử glycoprotein (chủ yếu là collagen) bao phủ bên ngoài màng tế bào động vật, giúp liên kết mô và truyền tín hiệu. Tôi là ai?",
     name: "Chất nền ngoại bào",
     english: "Extracellular Matrix (ECM)",
